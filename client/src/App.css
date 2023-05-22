@@ -1,0 +1,73 @@
+/* ---------------------------- Header ---------------------------- */
+.container {
+    background: #f1f1f1;
+}
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__title {
+    font-size: 32px;
+    color: rgb(93, 89, 89);
+    font-weight: bold;
+    text-decoration: none;
+}
+.header__border {
+    border-bottom: 2px solid gray;
+    opacity: 0.3;
+}
+.header__navigation {
+    display: flex;
+    gap: 40px;
+}
+.header__link {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(42, 39, 39);
+    font-weight: 600;
+}
+.header__link:hover {
+    text-decoration: underline;
+}
+/* ---------------------------- Table ---------------------------- */
+.table__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 0 20px;
+}
+.styled-table {
+	border-collapse: collapse;
+    font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
